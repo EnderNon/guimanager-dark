@@ -22,7 +22,8 @@ class SoopyBoxElement extends SoopyGuiElement {
 
         this.color = [new SoopyNumber(0), new SoopyNumber(0), new SoopyNumber(0)]
         this.colorOffset = [new SoopyNumber(0), new SoopyNumber(0), new SoopyNumber(0)]
-        this.setColor(253, 255, 227)
+        // the gui bg colour
+        this.setColor(47, 10, 100)
 
         let renderEvent = new SoopyRenderEvent()
 
